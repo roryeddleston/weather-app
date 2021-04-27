@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather-App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="conatainer">
+            <h1>Weather-mate</h1>
+            <div id="time"></div>
+            <form action="/" method="post">
+                <h2><label for="cityInput">City name: </label>
+                    <input id="cityInput" type="text" name="cityName">
+                <button type="submit">Find out weather</button>
+                </h2>
+                <label for="metricInput">Unit:</label>
+                <select id="metrics" name="metric">
+                    <option value="imperial">Imperial</option>
+                    <option value="metric">Metric</option>
+                </select>
+
+
+            </form>
+        </div>
+
+
+        <script src="/script.js" async defer></script>
+    </body>
+</html>
